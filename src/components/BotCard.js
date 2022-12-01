@@ -44,7 +44,7 @@ function BotCard({ bot }) {
             {bot.armor}
           </span>
           <span>
-            <div className="ui center aligned segment basic">
+            <div id='button'className="ui center aligned segment basic">
               <button
                 className="ui mini red button"
                 onClick={() =>
